@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar Starts Here -->
+    <nav id="dekstop-nav">
+    <div class="logo">Rudransha <span class="logo-edit">Coder</span></div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#exprience">Exprience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Rudransha <span class="logo-edit"> Coder </span></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">  About</a></li>
+                <li><a href="#exprience" onclick="toggleMenu()">Exprience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Ends Here -->
+    <!-- Section Starts Here  -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="../Images/dp pic 1000.png" alt="Megha Bhutada Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I am</p>
+            <h1 class="title">Megha Bhutada</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('../Images/resume-example.pdf')">Download CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+                
+            </div>
+                
+            <div id="social-container">
+                <img src="../Images/linkedin.png" alt="My Linkedin Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/megha-bhutada24/'">
+
+                <img src="../Images/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/coder-megha242'">
+            </div>
+        </div>
+
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="../Images/dp pic 2.png" alt="Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="../Images/experience.png" alt="Exprience ICon" class="icon">
+                        <h3>Exprience</h3>
+                        <p>6 Months <br> Frontend Developement</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="../Images/education.png" alt="Education ICon" class="icon">
+                        <h3>Education</h3>
+                        <p>BCA Bachelors Degree <br> MCA Masters Degree </p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>I am Megha Bhutada an aspiring REACT and UI Learning fresher who is trying to seek a role to enhance and explore my technical knowledge in your company.</p>
+                </div>
+            </div>
+        </div>
+        <img src="../Images/arrow.png" alt="Arrow Image" class="icon arrow" onclick="location.href='./#experience'">
+    </section>
+    <section id="exprience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Exprience</h1>
+        <div class="exprience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="exprience-sub-title">Frontend Developement</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="../Images/checkmark.png" alt="checkmark img" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Exprienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="../Images/checkmark.png" alt="checkmark img" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Exprienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="../Images/checkmark.png" alt="checkmark img" class="icon">
+                            <div>
+                                <h3>Javascript</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="../Images/checkmark.png" alt="checkmark img" class="icon">
+                            <div>
+                                <h3>ReactJs</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="../Images/checkmark.png" alt="checkmark img" class="icon">
+                            <div>
+                                <h3>MongoDB</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="../Images/checkmark.png" alt="checkmark img" class="icon">
+                            <div>
+                                <h3>Material UI</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="exprience-sub-title">Frontend Developement</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="../Images/checkmark.png" alt="checkmark img" class="icon">
+                            <div>
+                                <h3>NodeJs</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="../Images/checkmark.png" alt="checkmark img" class="icon">
+                            <div>
+                                <h3>Github</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="../Images/checkmark.png" alt="checkmark img" class="icon">
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="../Images/checkmark.png" alt="checkmark img" class="icon">
+                            <div>
+                                <h3>Canva</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="../Images/arrow.png" alt="Arrow Image" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="exprience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="../Images/Notes-App-1080.png" alt="Project Img" class="project-img">
+                    </div>
+                    <h2 class="exprience-sub-title project-title">Notes-App</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/coder-megha242/Notes-App'">Github</button>
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='https://notes-app-megha.netlify.app'">Live Demo</button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="../Images/NetflixLanding3 Page 1080px.png" alt="Project 2" class="project-img">
+                </div>
+                <h2 class="exprience-sub-title project-title">Netflix-Landing-Page</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/coder-megha242/Netflix-Landing-Page-Megha.git'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://netflix-landing-page-megha.netlify.app/'">Live Demo</button>
+                </div>
+                </div>
+                <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="../Images/Recat-Wether-1080.png" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="exprience-sub-title project-title">News App</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/coder-megha242/React-Weather-App.git'">Github</button>
+                    <button class="btn btn-color-2 project-btn" onclick="location.href='https://react-weather-app-megha.netlify.app/'">Live Demo</button>
+                </div>
+                </div>
+            </div>
+        </div>
+        <img src="../Images/arrow.png" alt="Arrow Image" class="icon arrow" onclick="location.href='./#projects'">
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="../Images/email.png" alt="email img" class="icon email-iconcontact-icon">
+                <p><a href="mailto:meghabhutada24296@gmail.com">meghabhutada24296@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="../Images/linkedin.png" alt="Linkedin img" class="icon contact-icon">
+                <p><a href="https://www.linkedin.com/in/megha-bhutada24/">Linkedin</a></p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#exprience">Exprience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Rudransha Coder all Rights Reserved.</p>
+    </footer>
+    <!-- Section Ends Here  -->
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
